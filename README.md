@@ -13,4 +13,4 @@ Chrome (extended version by @micelle ): https://chrome.google.com/webstore/detai
 - It can trim redundant string of Amazon.co.jp
 
 ## Demo
-![demo](https://github.com/MISONLN41/simple-url-copy/blob/master/assets/demo.gif)
+![demo](https://raw.githubusercontent.com/MISONLN41/simple-url-copy/master/demo.gif)
