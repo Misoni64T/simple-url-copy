@@ -1,4 +1,3 @@
-
 const AMAZON_HOST = "www.amazon.co.jp";
 
 const copyText = text => {
@@ -25,7 +24,7 @@ const showCopied = _ => {
 }
 
 const copyUrl = menuType => {
-    chrome.tabs.query({ active: true, currentWindow: true, lastFocusedWindow: true }, function (tabs) {
+    chrome.tabs.query({ active: true, currentWindow: true, lastFocusedWindow: true }, function(tabs) {
         let url = tabs[0].url;
         const title = tabs[0].title;
 
@@ -64,7 +63,7 @@ const onInit = _ => {
 }
 
 
-const onClickCopyMenu = function (evt) {
+const onClickCopyMenu = function(evt) {
     const menuType = this.id;
     copyUrl(menuType);
 }
