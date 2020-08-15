@@ -1,17 +1,16 @@
 ## Simple URL Copy
-A Chrome and Firefox extension that help you to copy URL
+A small extension that helps you to copy URL.
 
 ## Install
-Chrome (Not this fork): https://chrome.google.com/webstore/detail/simple-url-copy/cefkgjbbpagcilodnhboolbppdjlplip
-
 Firefox: https://addons.mozilla.org/en-US/firefox/addon/simple-url-copy/
 
+Chrome (extended version by @micelle ): https://chrome.google.com/webstore/detail/simple-url-copy-f/kmkdfdfknlkjbmgdenhpeckpdafojnfo
+
 ## Features
-- Simple and Fast
-- It can copy as markdown style.
-- It can copy as [Backlog](https://www.backlog.com/) style.
-- It can copy and open menu by shotcut(ctrl+shift+c)
-- It can exclude query strings, and trim Japanese Amazon's verbose URL(It may broken).
+- It is small and simple.
+- It supports Markdown, Backlog, and Scrapbox style.
+- It can be easily opened by Ctrl+Shift+K
+- It can trim redundant string of Amazon.co.jp
 
 ## Demo
-![demo](https://github.com/Misoni64T/simple-url-copy/blob/master/assets/how_to_use.gif)
+![demo](https://github.com/MISONLN41/simple-url-copy/blob/master/assets/demo.gif)
