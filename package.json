@@ -1,0 +1,23 @@
+{
+  "name": "simple-url-copy",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MISONLN41/simple-url-copy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MISONLN41/simple-url-copy/issues"
+  },
+  "homepage": "https://github.com/MISONLN41/simple-url-copy#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "web-ext": "^5.4.1"
+  }
+}
