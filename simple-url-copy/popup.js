@@ -31,6 +31,12 @@ const copyUrl = menuType => {
         // Process AmazonURL
         url = extractAmazonUrl(url);
 
+        new QRCode("qrcode", {
+            text: url,
+            width: 128,
+            height: 128
+        });
+
         let text;
         switch (menuType) {
             case "scrapbox":
