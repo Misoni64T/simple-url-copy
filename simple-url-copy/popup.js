@@ -31,12 +31,6 @@ const copyUrl = menuType => {
         // Process AmazonURL
         url = extractAmazonUrl(url);
 
-        new QRCode("qrcode", {
-            text: url,
-            width: 128,
-            height: 128
-        });
-
         let text;
         switch (menuType) {
             case "scrapbox":
@@ -68,6 +62,15 @@ const onInit = _ => {
     copyUrl("simple");
     document.querySelectorAll(".bettercopy-menu").forEach(el => {
         el.addEventListener("click", onClickCopyMenu);
+    });
+
+    chrome.tabs.query({ active: true, currentWindow: true, lastFocusedWindow: true }, (tabs) => {
+        new QRCode(document.getElementById("qrcode"),{
+            text: tabs[0].url,
+            width: 128,
+            height: 128,
+            correctLevel: QRCode.CorrectLevel.L
+        });
     });
 }
 

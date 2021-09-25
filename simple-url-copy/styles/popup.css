@@ -11,6 +11,7 @@
 
 body {
     width: 360px;
+    height: auto;
 }
 
 header {
@@ -75,9 +76,9 @@ main>div+div {
 }
 
 #qrcode {
-    width: 176px;
-    height: 176px;
-    padding: 24px;
+    width: 160px;
+    height: 160px;
+    padding: 16px;
     background-color: white;
-    border-radius: 6px;
+    border-radius: 4px;
 }
